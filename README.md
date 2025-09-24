@@ -16,3 +16,20 @@
 
 4-1โปรเจกต์นี้เป็นเว็บแสดง User Profile Card ทำด้วย React + TypeScript แต่ละการ์ดจะแสดงข้อมูลผู้ใช้ เช่น รูปโปรไฟล์ ถ้าไม่มีใช้ placeholder ชื่อ อีเมล สถานะออนไลน์ และทักษะต่าง ๆ ของผู้ใช้ ซึ่งทักษะแต่ละอันจะแสดงด้วยป้าย SkillTag ตามระดับ Beginner = เทา Intermediate = ส้ม Advanced = แดง ข้างล่างมีปุ่ม View Details กดแล้วจะโชว์ id ของผู้ใช้
 ไฟล์ SkillTag.tsx ใช้สร้างป้ายทักษะ รับค่า skillName และ level ส่วน UserProfileCard.tsx ใช้สร้างการ์ดผู้ใช้แต่ละใบ รับข้อมูลผู้ใช้ทั้งหมดและฟังก์ชัน viewDetails id เพื่อเรียกเมื่อกดปุ่ม ส่วน App.tsx เป็นไฟล์หลัก สร้างข้อมูลผู้ใช้ตัวอย่าง 3 คน วนลูป เพื่อสร้างการ์ดแต่ละใบและมีฟังก์ชัน viewDetail id ใช้ alert แสดง id เวลากดปุ่ม
+
+6.1โปรเจกต์นี้เป็นตัวอย่างการสร้าง **Product Showcase UI** ด้วย **React + TypeScript + TailwindCSS**  
+มาพร้อมกับ **Card Component** และ **Reusable Button** ที่สามารถปรับ `variant` และ `size` ได้
+แสดงสินค้าในรูปแบบการ์ด (Responsive)
+ปุ่ม `Add to Cart` ที่กดแล้วจะขึ้น Alert
+ปุ่ม (Button Component) รองรับหลายแบบ เช่น `primary`, `secondary`, `danger`, `outline`
+ใช้ **Tailwind CSS** ในการจัดการ UI
+รองรับ Responsive Layout (มือถือ → Desktop)
+6.2โปรเจกต์นี้เป็นตัวอย่างการสร้าง **Responsive Navigation Bar** ด้วย **React + TypeScript + TailwindCSS**  
+Navbar จะปรับการแสดงผลตามขนาดหน้าจอ (Desktop / Mobile) พร้อมเมนู Hamburger บนมือถือ
+**Responsive Design** (รองรับทั้ง Desktop และ Mobile)
+**Hamburger Menu** พร้อมปุ่มเปิด/ปิด
+ใช้ **TailwindCSS** สำหรับการจัดการ UI
+โครงสร้างโค้ดที่แยก Component (`Navbar.tsx`)
+
+
+
